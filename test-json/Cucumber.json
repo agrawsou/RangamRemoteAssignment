@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login and fill the background verification form",
+        "description": "",
+        "id": "login-and-fill-up-the-bgc-form;login-and-fill-the-background-verification-form",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8624090031,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "TestStep.userOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 69891084185,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User logins by using the valid credentials",
+            "match": {
+              "location": "TestStep.userLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 228106735,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verifies that home page is displayed successfully",
+            "match": {
+              "location": "TestStep.verifyHomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 59097555543,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on BGC form",
+            "match": {
+              "location": "TestStep.clickForm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66583781774,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User fills out the details in the form and submits the form",
+            "match": {
+              "location": "TestStep.enterValues()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 115142926780,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on the profile icon",
+            "match": {
+              "location": "TestStep.selectProfile()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7015137591,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User adds a new profile picture",
+            "match": {
+              "location": "TestStep.uploadProfilePic()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login and fill up the BGC form",
+    "description": "",
+    "id": "login-and-fill-up-the-bgc-form",
+    "keyword": "Feature",
+    "uri": "C:/Users/USER/Rangam Infotech/rangamRemoteProj/Feature/login.feature"
+  }
+]
